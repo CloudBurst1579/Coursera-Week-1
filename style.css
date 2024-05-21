@@ -1,0 +1,30 @@
+p {
+    width: 500px;
+    background-color: lightblue;
+}
+
+ul li{
+    list-style: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+    border: 5px outset gray;
+    display: block;
+    width: 200px;
+    background-color: lightgray;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+a:hover {
+    border: 5px outset cyan;
+    background-color: lightcyan;
+}
+
+a:active {
+    color: white;
+    border: 5px inset rgb(0,128,255);
+    background-color: rgb(0,40,80);
+}
