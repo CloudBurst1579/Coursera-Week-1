@@ -1,13 +1,37 @@
-p {
-    width: 500px;
-    background-color: lightblue;
+* {
+    box-sizing: border-box;
 }
 
-ul li{
-    list-style: none;
+div.content {
+    background-color: lightblue;
+    overflow: auto;
+    margin: 5px 0px 5px 0px;;
+}
+
+div.content li {
+    background-color: blue;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.content p {
+    margin-right: 2.5%;
+    width: 47.5%;
+    border: 2px solid black;
+    float: left;
+    padding: 10px;
+}
+
+p.left {
+    background-color: lime;
+}
+
+p.right {
+    background-color: yellow;
 }
 
 a:link, a:visited {
+    clear: both;
     text-decoration: none;
     color: black;
     border: 5px outset gray;
