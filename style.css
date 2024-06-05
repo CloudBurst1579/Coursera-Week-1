@@ -2,12 +2,17 @@
     box-sizing: border-box;
 }
 
+h1 {
+    text-align: center;
+}
+
 div.content {
     background: url("https://cache.desktopnexus.com/thumbseg/2693/2693295-bigthumbnail.jpg") no-repeat rgba(173,216,230,0.5);
     background-size: 100% 100%;
     overflow: auto;
     margin: 5px 0px 5px 0px;
     position: relative;
+    font: 20px Arial, sans-serif;
 }
 
 /*"Don't know why this works yet" 
@@ -45,6 +50,7 @@ div.content p {
 }
 
 a:link, a:visited {
+    font: 20px Arial, sans-serif;
     clear: both;
     text-decoration: none;
     color: black;
@@ -65,4 +71,16 @@ a:active {
     color: white;
     border: 5px inset rgb(0,128,255);
     background-color: rgb(0,40,80);
+}
+
+@media (min-width: 1200px) {
+    .alt-page {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+    .alt-page {
+        font-size: 10px;
+    }
 }
