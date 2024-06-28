@@ -72,15 +72,3 @@ a:active {
     border: 5px inset rgb(0,128,255);
     background-color: rgb(0,40,80);
 }
-
-@media (min-width: 1200px) {
-    .alt-page {
-        font-size: 50px;
-    }
-}
-
-@media (min-width: 900px) and (max-width: 1199px) {
-    .alt-page {
-        font-size: 10px;
-    }
-}
